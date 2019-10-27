@@ -1,10 +1,10 @@
 package db;
 
-public class DBIntegrityException extends RuntimeException{
+public class DbIntegrityException extends RuntimeException{
 
 	private static final long serialVersionUID = 1L;
 
-	public DBIntegrityException(String msg) {
+	public DbIntegrityException(String msg) {
 		super(msg);
 	}
 	
